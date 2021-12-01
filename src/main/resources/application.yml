@@ -1,0 +1,16 @@
+server:
+  port: ${APP_PORT:8086}
+  servlet:
+    context-path: /api/northwind/v1
+
+spring:
+  datasource:
+    url: ${URL_DATA_BASE}
+    username: ${USERNAME_DATA_BASE}
+    password: ${PASSWORD_DATA_BASE}
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+
+
