@@ -1,5 +1,5 @@
 server:
-  port: ${APP_PORT:8086}
+  port: ${APP_PORT:8085}
   servlet:
     context-path: /api/northwind/v1
 

@@ -14,7 +14,7 @@
 	<name>northwind</name>
 	<description>micro servicio de prueba con la bd de northwind</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>

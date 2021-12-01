@@ -24,7 +24,7 @@
 
 | Tipo de recurso | Herramienta |
 | ------ | ------ |
-| Lenguaje de programación | Java 11|
+| Lenguaje de programación | Java 8|
 | Framework de aplicación | Spring Boot |
 | Gestor de repositorio | Git Lab |
 | Gestor de Base de Datos | Postgres SQL |
