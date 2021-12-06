@@ -12,6 +12,7 @@ spring:
     properties:
       hibernate:
         default_schema: ${DATABASE_SCHEMA:northwind}
+        dialect: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
       ddl-auto: none
 
