@@ -11,7 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(schema = "public", name = "categories")
+@Table(name = "categories")
 @Data
 @Builder
 @NoArgsConstructor

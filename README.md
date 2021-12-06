@@ -22,11 +22,11 @@
 
 #### Recursos del proyecto
 
-| Tipo de recurso | Herramienta |
-| ------ | ------ |
-| Lenguaje de programación | Java 8|
-| Framework de aplicación | Spring Boot |
-| Gestor de repositorio | Git Lab |
+| Tipo de recurso | Herramienta  |
+| ------ |--------------|
+| Lenguaje de programación | Java 11       |
+| Framework de aplicación | Spring Boot  |
+| Gestor de repositorio | Git Lab      |
 | Gestor de Base de Datos | Postgres SQL |
 
 #### Requisitos de sistema
@@ -50,4 +50,4 @@
 
 
 #### DOCUMENTACION DEL API
-- [Swagger](http://localhost:8085/api/northwind/v1/swagger-ui.html#/Product)
+- [Swagger](http://localhost:8085/api/northwind/v1/swagger-ui.html)
