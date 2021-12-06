@@ -5,10 +5,13 @@ server:
 
 spring:
   datasource:
-    url: ${URL_DATA_BASE}
-    username: ${USERNAME_DATA_BASE}
-    password: ${PASSWORD_DATA_BASE}
+    url: ${URL_DATA_BASE:jdbc:postgresql://ec2-54-89-105-122.compute-1.amazonaws.com:5432/d7mcnfamu7m7q9}
+    username: ${USERNAME_DATA_BASE:mutgzumaqkwypc}
+    password: ${PASSWORD_DATA_BASE:2e0a29fc2a969d9de4f4816934e3d1e2a62778b3a428d48a4c32f5180c6bda9e}
   jpa:
+    properties:
+      hibernate:
+        default_schema: ${DATABASE_SCHEMA:northwind}
     hibernate:
       ddl-auto: none
 
