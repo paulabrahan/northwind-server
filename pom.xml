@@ -10,11 +10,11 @@
 	</parent>
 	<groupId>com.ulasalle.lp3</groupId>
 	<artifactId>evaluation-final</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>northwind</name>
 	<description>micro servicio de prueba con la bd de northwind</description>
 	<properties>
-		<java.version>8</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
