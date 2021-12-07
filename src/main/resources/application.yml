@@ -5,9 +5,9 @@ server:
 
 spring:
   datasource:
-    url: ${URL_DATA_BASE:jdbc:postgresql://tai.db.elephantsql.com:5432/ghahujcl}
-    username: ${USERNAME_DATA_BASE:ghahujcl}
-    password: ${PASSWORD_DATA_BASE:afogLwFtW8Xft9kxpen-dPIeuCWsAX1s}
+    url: ${JDBC_DATABASE_URL}
+    username: ${JDBC_DATABASE_USERNAME}
+    password: ${JDBC_DATABASE_PASSWORD}
     driver-class-name: org.postgresql.Driver
   jpa:
     properties:
