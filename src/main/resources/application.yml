@@ -5,9 +5,9 @@ server:
 
 spring:
   datasource:
-    url: ${URL_DATA_BASE:jdbc:postgresql://ec2-54-89-105-122.compute-1.amazonaws.com:5432/d8f7a3dt77goet}
-    username: ${USERNAME_DATA_BASE:xpqtnrwlfwmdnf}
-    password: ${PASSWORD_DATA_BASE:7ff6516417e33412ca72a354e2eb052e1b63324b934354d75292b43d4155db0e}
+    url: ${URL_DATA_BASE:jdbc:postgresql://tai.db.elephantsql.com:5432/ghahujcl}
+    username: ${USERNAME_DATA_BASE:ghahujcl}
+    password: ${PASSWORD_DATA_BASE:afogLwFtW8Xft9kxpen-dPIeuCWsAX1s}
   jpa:
     properties:
       hibernate:
