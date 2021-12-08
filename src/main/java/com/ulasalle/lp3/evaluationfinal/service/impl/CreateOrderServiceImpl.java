@@ -2,13 +2,10 @@ package com.ulasalle.lp3.evaluationfinal.service.impl;
 
 import com.ulasalle.lp3.evaluationfinal.model.dto.OrderDTO;
 import com.ulasalle.lp3.evaluationfinal.service.CreateOrderService;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
 
-@Builder
-@Getter
-@Setter
+import org.springframework.stereotype.Service;
+
+@Service
 public class CreateOrderServiceImpl implements CreateOrderService {
 
 
